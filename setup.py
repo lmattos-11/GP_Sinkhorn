@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='GP_Sinkhorn',
-    packages=find_packages(),
+    package_dir = {"": "gp_sinkhorn"},
     install_requires=[
         'torch',
         'tqdm',
